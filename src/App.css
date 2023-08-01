@@ -1,0 +1,89 @@
+
+
+.App {
+  text-align: center;
+}
+body {
+  background-image: url('https://wallpaperaccess.com/full/1089608.png');
+
+}
+
+
+
+/* DivTable.com */
+.divTable {
+  display: table;
+  height: 20px;
+  max-width: 20em;
+  float: right;
+  display: flex;
+  position:absolute;
+  bottom: 550px;
+  left: 765px;
+}
+
+
+.divTableRow {
+  display: table-row;
+}
+.divTableHeading {
+  background-color: #eee;
+  display: table-header-group;
+}
+.divTableCell,
+.divTableHead {
+  border: 1px solid #999999;
+  display: table-cell;
+  padding: 3px 10px;
+}
+.divTableHeading {
+  background-color: #eee;
+  display: table-header-group;
+  font-weight: bold;
+}
+.divTableFoot {
+  background-color: #eee;
+  display: table-footer-group;
+  font-weight: bold;
+}
+.divTableBody {
+  display: table-row-group;
+}
+
+.divTableCell:nth-child(odd) {
+  background-color: rgb(238, 238, 238);
+}
+
+.divTableCell:nth-child(even) {
+  background-color: rgb(238, 238, 238);
+}
+
+
+.container {
+  display:flex;
+  opacity: 1;
+  background-color: redsmoke;
+  justify-content:center;
+
+}
+
+img {
+	flex-shrink: 0;
+	margin: 20px;
+	height: calc(200px + 6vw);
+	width: calc(200px + 6vw);
+	border: calc(1px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+  background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2fb2821a-1406-4a1d-9b04-6668f278e944/d83m36e-3b58ca48-fe8a-456e-9ffc-a5a84eca6613.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJmYjI4MjFhLTE0MDYtNGExZC05YjA0LTY2NjhmMjc4ZTk0NFwvZDgzbTM2ZS0zYjU4Y2E0OC1mZThhLTQ1NmUtOWZmYy1hNWE4NGVjYTY2MTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jOpoPaOypPatcb4k7flznTP9YiwUEX2q2BKoeWUPU74");
+}
+
+input {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
