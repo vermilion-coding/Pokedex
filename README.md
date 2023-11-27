@@ -3,8 +3,13 @@
 
 A simple Pokedex app using React and PokeAPI.
 
+# Usage
+
+Navigate to the project directory using either an IDE or terminal.
+
 In the project directory, you can run:
 
 ### `npm start`
 
+The project will open in a new browser window.
 
